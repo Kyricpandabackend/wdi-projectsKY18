@@ -9,28 +9,28 @@ var arr=[
   back: 'Gavrilo Princip'
   },
   {
-  front: '3+3',
-  back: 6
+  front: 'Which battle had the most artillery used?',
+  back: 'Battle of Verdun'
   },
   {
-  front: '4+4',
-  back: 8
+  front: 'Who is the Kasier?',
+  back: 'Wilhelm II'
   },
   {
-  front: '5+5',
-  back: 10
+  front: 'where is the maginot line?',
+  back: 'Hunspach, France'
   },
   {
-  front: '6+6',
-  back: 12
+  front: 'Your men have dysentery. Why?',
+  back: 'Bad water'
   },
   {
-  front: '7+7',
-  back: 14
+  front: 'WHat year did the war start?',
+  back: ' 1914 '
   },
  {
-  front: '8+8',
-  back: 16
+  front: 'What year did the war end?',
+  back: '1918'
   }
 ]
 // add front to flash card
@@ -54,7 +54,6 @@ cards[i].innerHTML= arr[i].front
   //  $('button').click(function(){
   //     $('.card')[i].toggleClass('flipped');
   //  });
-
-    
+  
    })
   }
